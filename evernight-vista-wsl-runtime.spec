@@ -26,7 +26,6 @@ Source7:        wsl-setup-user-tmpfiles.conf
 Source8:        wsl-setup
 
 BuildRequires:  systemd-rpm-macros
-BuildRequires:  evernight-vista-branding-wsl
 
 Conflicts:      wsl-setup
 Provides:       wsl-setup
@@ -43,7 +42,6 @@ Provides WSL specific configuration files and first-time setup script.
 
 
 %prep
-%autosetup -n %{name}-main
 
 
 %build
